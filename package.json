@@ -1,20 +1,20 @@
 {
-  "name": "@cheeseswap/v2-lib",
-  "version": "0.1.1",
+  "name": "@cheeseswapv2/lib",
+  "version": "2.0.1",
   "description": "CheeseSwap Library",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "contracts",
     "!contracts/test"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kiwifinance/v2-lib.git"
-  },
-  "publishConfig": {
-    "registry": "http://registry.npmjs.org"
+    "url": "https://github.com/cheeseswapbsc/cheeseswap2-lib.git"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=16"
   },
   "devDependencies": {
      "@types/chai": "^4.2.11",
