@@ -1,13 +1,13 @@
 {
   "name": "@cheeseswapv2/lib",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "CheeseSwap Library",
   "publishConfig": {
     "access": "public"
   },
   "files": [
     "contracts",
-    "!contracts/test"
+    "build"
   ],
   "repository": {
     "type": "git",
